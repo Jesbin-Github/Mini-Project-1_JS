@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Pizza</title>
+    <link href="/css/index.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/images/logo.jpeg" type="image/x-icon" /> <!--Logo image-->
+    
+</head>
+<body>
+    <header>
+        <div class="main2">
+        <h1><b>Pizza Order Form</b></h1>
+    </div>
+    </header>
+    <main>
+        <div class="main">
+            <fieldset> <!-- Form for personal information-->
+                
+                <legend><b>Personal Information</b></legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <fieldset> <!--Pizza detials-->
+                <legend>Pizza Details</legend> 
+                <label for="numPizzas">Number of Pizzas:</label>
+                <input type="number" id="numPizzas" name="numPizzas" min="1" max="10" required>
+                <br><br>
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="Select One">Select One</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <br><br>
+                <label>Crust Type:</label>
+                <input type="radio" id="thinCrust" name="crust" value="thin" required>
+                <label for="thinCrust">Thin Crust</label>
+                <input type="radio" id="deepDish" name="crust" value="deep" required>
+                <label for="deepDish">Deep Dish</label>
+                <br><br>
+                <label for="toppings">Toppings:</label> 
+                <textarea id="toppings" name="toppings" rows="2" cols="20"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <input type="radio" id="takeout" name="delivery" value="takeout" required>
+                <label for="takeout">Takeout</label>
+                <input type="radio" id="delivery" name="delivery" value="delivery" required>
+                <label for="delivery">Delivery</label>
+            </fieldset><br>
+        <a href="last.html"> <!--Linking to the third  page-->
+            <input type="submit" value="Place Order">
+        </a>
+            
+         <input type="reset" value="Reset">
+        </form>
+  
+
+        <p>
+           
+            Enjoy our delicious pizza!
+        </p>
+   
+
+    </main>
+</div>
+</body>
+</html>
+
+
+

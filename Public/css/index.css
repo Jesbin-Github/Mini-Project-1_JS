@@ -1,0 +1,23 @@
+.main2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    color: rgb(254, 254, 254);
+}
+body{
+    background-image: url('/assets/images/background\ main.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-attachment: fixed;
+}
+
+.main{
+    font-size: x-large;
+    width: 560px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    position: relative;
+    float: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+   
+}

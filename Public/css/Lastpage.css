@@ -1,0 +1,30 @@
+.main{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+.content{
+        position: fixed;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: px;
+        position: fixed;
+        bottom: 40%;
+        background: rgba(4, 0, 0, 0.5);
+        color: #ffffff;
+        width: 60%;
+        padding: 10px;
+        text-align: justify;
+        transition: 0.8s;
+        font-weight: bold;
+        font-size: 28px;
+      }
+   
+.content :hover{
+        color:#024f1b;
+    
+    }
+    
+    
+
