@@ -5,7 +5,7 @@ This is a simple Express.js project with 4 HTML pages. It uses JSON data and asy
 ## 📁 Project Structure
 
 - `public/` – CSS and JS files  
-- `views/` – HTML pages (index, about, services, contact)  
+- `views/` – HTML pages  
 - `data/` – JSON file (cars.json)  
 - `server.js` – Express server  
 
